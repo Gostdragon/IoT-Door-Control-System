@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="fragment_preferences_connection_key" translatable="false">preferences_connection_key</string>
+    <string name ="fragment_preferences_hostname_key" translatable="false">preferences_hostname_key</string>
+    <string name ="fragment_preferences_port_key" translatable="false">preferences_port_key</string>
+    <string name ="fragment_preferences_timeout_key" translatable="false">preferences_timeout_key</string>
+</resources>

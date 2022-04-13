@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Türsteuerung</title>
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <h1 style="text-align: center">Türsteuerung</h1>
+    <div style="height: 40%; display: flex; align-items: center; justify-content: center;">
+        <div class="col-lg-8  offset-lg-2" onclick="button()" style="width: 50%; height: 40%">
+            <img src="{{ url_for('camera_feed') }}" width="100%">
+        </div>
+    </div>
+
+    <div style="clear:both; display: flex; align-items: center; justify-content: center;">
+        <button onclick="button()">Open_door</button>
+    </div>
+    <script>
+        <!-- Diese Methode sendet eine json-Anfrage an den Server um die Methode opendoor() zu öffnen-->
+        function button() {
+            $.ajax({
+                url:"/button",
+                type: "POST",
+                dataType: "json",
+                success: function(data) {
+                }
+            });
+        }
+
+    </script>
+
+</body>
+</html>

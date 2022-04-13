@@ -1,0 +1,9 @@
+[Unit]
+Description=Website Raspberry-Pi
+
+[Service]
+ExecStart=python /usr/local/bin/website_pi.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target

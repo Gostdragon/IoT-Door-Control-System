@@ -1,0 +1,5 @@
+admin,admin;admin;admin:admintoken
+Mustermann,Max;1;passwort:
+Hermann,Karl;2;passwort2:
+Doe,John;3;passwort3:
+Obama,Barack;4;passwort4:

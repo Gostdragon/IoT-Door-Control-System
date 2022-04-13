@@ -1,0 +1,14 @@
+gpiozero
+threaded
+sockets
+slack
+regex
+paho-mqtt
+typing_extensions
+requests
+flask
+pytapo
+slackclient
+pyOpenSSL
+pygame
+mfrc522

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_preferences_hostname_default_value" translatable="false">10.12.181.55</string>
+    <string name="fragment_preferences_port_default_value" translatable="false">5001</string>
+    <string name="fragment_preferences_timeout_default_value" translatable="false">3000</string>
+</resources>

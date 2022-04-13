@@ -1,0 +1,8 @@
+[Unit]
+Description=Website Server
+
+[Service]
+ExecStart=python /usr/local/bin/website_controller.py
+
+[Install]
+WantedBy=multi-user.target

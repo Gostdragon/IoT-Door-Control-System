@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!-- beinhaltet deutsche Ausgaben für den Nutzer -->
+
+    <!-- View Namen -->
+    <string name="app_name">AdminApp</string>
+    <string name="activity_login_et_loginName">Nutzer ID</string>
+    <string name="activity_login_et_password">Passwort</string>
+    <string name="activity_search_user_et_searchName">ID</string>
+    <string name="activity_search_user_btn_search">suchen</string>
+    <string name="activity_show_user_btn_delete">Token entfernen</string>
+    <string name="activity_show_user_tv_name">Name:</string>
+    <string name="activity_show_user_tv_tokens">#Token:</string>
+    <string name="activity_login_btn_login">Einloggen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="fragment_preferences_connection_title">Verbindung</string>
+    <string name="fragment_preferences_hostname_title">IP-Adresse</string>
+    <string name="fragment_preferences_port_title">Port</string>
+    <string name="fragment_preferences_timeout_title">Timeout</string>
+
+    <!-- Nachrichten -->
+    <string name="activity_settings_timeout_summary">%s ms</string>
+    <string name="activity_show_user_add_token_hint">Token an Gerät halten um es hinzuzufügen.</string>
+
+    <!-- Error Nachrichten -->
+    <string name="ERROR_CONNECT_FAILED">Konnte keine Verbindung zum Server herstellen.</string>
+    <string name="ERROR_AUTHENTIFICATION_FAILED">Benutzername oder Passwort falsch</string>
+    <string name="ERROR_NFC_DISABLED">bitte NFC aktivieren um einen Token hinzuzufügen</string>
+    <string name="ERROR_NO_ENTRY_FOUND">Eintrag nicht gefunden</string>
+    <string name="ERROR_HASH_FAILURE">Token konnte nicht gehasht werden</string>
+    <string name="ERROR_ADD_FAILED">Token konnte nicht hinzugefügt werden</string>
+
+    <!-- Preference Titel -->
+    <string name="activity_login_item_settings">Einstellungen</string>
+
+</resources>
